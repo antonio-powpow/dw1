@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.versiculo{
+    text-indent: 1em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.jesus{
+    color: red;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
