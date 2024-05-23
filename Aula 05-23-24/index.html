@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+        
+        :root {
+            --cor-fundo: #14213d;
+            --cor-primaria: #14213d;
+            --cor-secundaria: #fca311;
+            --fonte-titulo: "Jacquard 12", system-ui;
+            --fonte-secundaria: "Radio Canada Big", sans-serif;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: var(--cor-fundo);
+        }
+        .card {
+            border: 1px solid var(--cor-primaria);
+            border-radius: 5px;
+            padding: 10px;
+            height: calc(100vh - 15px);
+            /*margin: 10px;*/
+            background-color: var(--cor-secundaria);
+        }
+        .card h1 {
+            margin-bottom: 10px;
+            color: var(--cor-primaria);
+            font-family: var(--fonte-titulo);
+        }
+        .card ul {
+            margin-left: 15px;
+            color: var(--cor-primaria);
+            font-family: var(--fonte-secundaria);
+        }
+        .cabecalho {
+            background-color: var(--cor-secundaria);
+            font-family: var(--fonte-titulo);
+            overflow-y: scroll;
+            height: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <p>Cabeçalho</p>
+            <p>SANTOS FC</p>
+        </div>
+        <div class="card">
+            <h1>Lista de Tarefas</h1>
+            <ul>
+                <li>Tarefa 1</li>
+                <li>Tarefa 2</li>
+                <li>Tarefa 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
