@@ -17,7 +17,7 @@
 .container{
     background-color: gray;
     width: 100vw;
-    height: 400vh;
+    height: 320vh;
 }
 #secao1 {
     width: 100vw;
@@ -39,7 +39,7 @@ H1{
 }
 #contatos {
     width: 100vw;
-    height: 100vh;
+    height: 20vh;
     background-color: var(--cor-contatos);
 }
 .menu{
