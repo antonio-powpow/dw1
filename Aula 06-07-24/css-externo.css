@@ -39,3 +39,13 @@
     background-size: cover;
     background-position: center;
 }
+#textbox{
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    align-items: flex-end;
+}
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
