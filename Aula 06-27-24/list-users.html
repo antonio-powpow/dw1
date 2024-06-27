@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: white;
+        }
+        .container{
+            background-color: rgb(54, 54, 54);
+            height: 100vh;
+            width: 100vw;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .list{
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 80vh;
+            border-radius: 40px;
+        }
+        .list-item{
+            border: 1px solid rgb(150, 150, 150);
+            padding: 10px;
+            width: 40vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .list-item_image{
+            display: flex;
+            flex-shrink: 0;
+            border-radius: 100px;
+            padding: 5px;
+            margin-right: 5vw;
+
+        }
+        .list-item_content{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .list-item_content h1{
+            color: rgb(68, 68, 68);
+        }
+        .list-item_content h2{
+            color: rgb(148, 148, 148);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AMIGOS:</h1>
+        <ul class="list">
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="" class="list-item_image">
+                <div class="list-item_content">
+                    <h1>RITTHY WELCH</h1>
+                    <h2>6423 Bruce St</h2>
+                </div>
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="" class="list-item_image">
+                <div class="list-item_content">
+                    <h1>RAMON COX</h1>
+                    <h2>4956 E Sandy Lake Rd</h2>                  
+                </div>
+    
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/women/20.jpg" alt="" class="list-item_image">
+                <div class="list-item_content">
+                    <h1>BERNICE SHELTON</h1>
+                    <h2>7964 Wycliff Ave</h2>                   
+                </div>
+    
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/25.jpg" alt="" class="list-item_image">
+                <div class="list-item_content">
+                    <h1>RAMON PEREZ</h1>
+                    <h2>9903 Prospect Rd</h2>
+                </div>
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="" class="list-item_image">
+                <div class="list-item_content">
+                    <h1>SHANE TERRY</h1>
+                    <h2>9279 Marsh Ln</h2>
+                </div>
+            </li>
+            <li class="list-item">
+                <img src="https://randomuser.me/api/portraits/men/92.jpg" alt="" class="list-item_image">
+                <div class="list-item_content">
+                    <h1>JASON JONES</h1>
+                    <h2>5189 Robinson Rd</h2>
+                </div>
+            </li>
+        </ul>
+        
+    </div>
+</body>
+</html>
