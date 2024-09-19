@@ -25,7 +25,7 @@ function calcFine(){
         }
         if (excess > 1.5){
             divWarn.classList.add("warnB")
-            divWarn.innerText = String("Você está aprodximadamente "+String(Math.ceil(((excess-1)*100)))+"% acima do limite permitido! Multa de: R$ 880,41")
+            divWarn.innerText = String("Você está aproximadamente "+String(Math.ceil(((excess-1)*100)))+"% acima do limite permitido! Multa de: R$ 880,41")
         }
     }
     else if (excess <= 1){
