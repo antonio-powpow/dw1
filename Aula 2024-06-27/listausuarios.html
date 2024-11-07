@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: gray;
+            height: 100vh;
+            width: 100vw;
+        }
+        .box{
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40vw;
+            height: 30vh;
+            border-radius: 20px;
+        }
+        .box h1{
+            color: rgb(58, 58, 58);
+        }
+        .box h2{
+            color: rgb(151, 151, 151);
+        }
+        .box img{
+            border-radius: 200px;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="list">
+            <li class="list-item">
+                <div class="box">
+                    <div class="img">
+                        <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>RITTHY WELCH</h1>
+                        <h2>6423 Bruce St</h2>
+                    </div>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="box">
+                    <div class="img">
+                        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>RAMON COX</h1>
+                        <h2>4956 E Sandy Lake Rd</h2>
+                    </div>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="box">
+                    <div class="img">
+                        <img src="https://randomuser.me/api/portraits/women/20.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>BERNICE SHELTON</h1>
+                        <h2>7964 Wycliff Ave</h2>
+                    </div>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="box">
+                    <div class="img">
+                        <img src="https://randomuser.me/api/portraits/men/25.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>RAMON PEREZ</h1>
+                        <h2>9903 Prospect Rd</h2>
+                    </div>
+                </div>
+                
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
