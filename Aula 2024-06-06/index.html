@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: gray;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .box{
+            width: 6.25rem;
+            height: 6.25rem;
+            border: 1px solid black;
+            color: white;
+        }
+        .bg-verde{
+            background-color: green;
+        }
+        .bg-vermelho{
+            background-color: red;
+        }
+        .bg-azul{
+            background-color: blue;
+        }
+        .flex-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <div class="container">
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vermelho flex-center">3</div>
+    </div>
+</body>
+</html>

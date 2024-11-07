@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 10vw;
+}
+span{
+    font-weight: bolder;
+}
+.vmaxx{
+    display: flex;
+    flex-direction: column;
+}
+.vveicc{
+    display: flex;
+    flex-direction: column;
+}
+.calc{
+    border-radius: 5px;
+    justify-content: center;
+    gap: 10px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    width: 48vw;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.info{
+    border-radius: 5px;
+    gap: 10px;
+    padding: 15px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    border: 1px solid black;
+    width: 48vw;
+}
+.warnG{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    font-weight: bolder;
+    background-color: gainsboro;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
+.warnB{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    font-weight: bolder;
+    background-color: gainsboro;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}
+#button{
+    background-color: black;
+    color: white;
+    height: 3vh;
+    width: 10vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}

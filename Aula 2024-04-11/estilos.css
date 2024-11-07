@@ -1,0 +1,32 @@
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.t1{
+    color: rgb(3, 3, 102);
+}
+#t2{
+    color:brown;
+}
+.p1{
+    background-color: rgb(6, 6, 94, 0.247);;
+}
+#p2{
+    background-color: rgba(165, 42, 42, 0.247);
+}
+.classe_primaria{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.classe_secundaria{
+    background-color: rgb(175, 175, 175);
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.quadro{
+    margin-top: 10px;
+    border: 1px solid;
+}
